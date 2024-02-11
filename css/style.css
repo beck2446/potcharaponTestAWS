@@ -76,7 +76,7 @@ body{
 .container main{
     width: 100%;
     height: calc(100vh - 70px);
-    background-image: url('images/mymodel.jpg');
+    background-image: url('../images/mymodel.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     display: flex;
