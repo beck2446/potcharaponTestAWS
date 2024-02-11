@@ -10,7 +10,7 @@ body{
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: #696868;
+    background-color: black;
     color: white;
 }
 .container .menu{
