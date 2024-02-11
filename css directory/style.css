@@ -76,7 +76,7 @@ body{
 .container main{
     width: 100%;
     height: calc(100vh - 70px);
-    background-image: url(mymodel.jpg);
+    background-image: url(images/directory/);
     background-repeat: no-repeat;
     background-position: right center;
     display: flex;
@@ -134,6 +134,7 @@ main .infoText{
 .socialMediaIcons a i:hover{
     color: yellow;
     transform: scale(1.2);
+
 }
 @media(max-width: 768px) {
     .menu #menuBtn{
