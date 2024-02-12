@@ -75,7 +75,7 @@ body{
 }
 .container main{
     width: 100%;
-    height: 200px;
+    height: calc(100vh - 200px);
     background-image: url(../images/fitness.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ main .infoText{
     padding: 0 8%;
 }
 .infoText p{
-    color: #79747b;
+    color: #000000;
     font-size: 3vw;
     letter-spacing: 0.5px;
     text-transform: uppercase;
