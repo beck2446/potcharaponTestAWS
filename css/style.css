@@ -75,7 +75,7 @@ body{
 }
 .container main{
     width: 100%;
-    height: calc(100vh - 2vw);
+    height: calc(100vh - 200px);
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
     background-position: center;
