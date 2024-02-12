@@ -43,6 +43,9 @@ body{
     color: #dedce1;
     font-size: 20px;
 }
+.size-word{
+    font-size: 20px;
+}
 .menu ul li a::after{
     content: '';
     position: absolute;
