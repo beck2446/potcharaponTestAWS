@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--*****style*****-->
+        <link rel="stylesheet" type="text/css" href="css/style3.css">
+        <!--*****front*****-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="menu">
+                <div class="logo"><h2>MY<span>PROFILE</span></h2></div>
+
+                <ul>
+                    <li><a href="homepage.html" class="active" onclick="markMenuItem(this)">Home</a></li>
+                    <li><a href="Myresume.html" onclick="markMenuItem(this)">Resume</a></li>
+                    <li><a href="Myshowcase.html" onclick="markMenuItem(this)">Showcase</a></li>
+                    <li><a href="TULife.html" onclick="markMenuItem(this)">Tu Life</a></li>
+                </ul>
+
+                <div id="menuBtn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+
+            <main>
+               <section class="infoText">
+                <p>Almost every day I go to the gym with my friends.</p>
+                <footer class="socialMediaIcons">
+                    <a href="https://www.facebook.com/master.mpb/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/beck.2_4/"><i class="fa-brands fa-instagram"></i></a>
+                    <br>
+                    <br>
+                    <b>Contact me at: becks2446@hotmail.com | Phone 080-028-0827</b>
+                </footer>
+               </section> 
+            </main>
+        </div>
+
+        <script type="text/javascript">
+            var menu_btm = document.querySelector('#menuBtn');
+            var menu = document.querySelector('.menu ul')
+            var menuItems = document.querySelectorAll('.menu ul li a');
+
+            menu_btm.addEventListener('click', function(){
+                menu_btm.classList.toggle('active');
+                menu.classList.toggle('active');
+            });
+            for(i = 0; i < menuItems.length; i++){
+                menuItems[i].addEventListener('click',function(){
+                    menu_btm.classList.remove('active');
+                    menu.classList.remove('active');
+                })
+            }
+            function markMenuItem(menuItem){
+                for(var i = 0; i < menuItems.length; i++){
+                    menuItems[i].classList.remove('active');
+                }
+                menuItem.classList.add('active');
+            }
+        </script>
+    </body>
+</html>
