@@ -129,12 +129,12 @@ main .infoText{
 .socialMediaIcons b{
     font-size: 2.5vw;
     padding-right: 20px;
-    color: #dedce1;
+    color: #000000;
 }
 .socialMediaIcons a i{
     font-size: 24px;
     padding-right: 20px;
-    color: #dedce1;
+    color: #000000;
     transition: 0.4s;
 }
 .socialMediaIcons a i:hover{
