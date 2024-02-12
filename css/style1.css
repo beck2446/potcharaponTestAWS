@@ -75,7 +75,7 @@ body{
 }
 .container main{
     width: 100%;
-    height: 2000;
+    height: calc(100vh - 10px);
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: center;
@@ -134,7 +134,7 @@ main .infoText{
 .socialMediaIcons a i{
     font-size: 24px;
     padding-right: 20px;
-    color: #dedce1;
+    color: #939393;
     transition: 0.4s;
 }
 .socialMediaIcons a i:hover{
