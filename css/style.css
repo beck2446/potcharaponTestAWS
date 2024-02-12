@@ -73,9 +73,31 @@ body{
     border-radius: 5px;
     transition: 0.4s cubic-bezier(1, 0.2, 0.2, 1);
 }
-.container main{
+.container main1{
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 70px);
+    background-image: url(../images/mymodel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container main2{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(../images/mymodel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container main3{
+    width: 100%;
+    height: calc(100vh - 70px);
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
     background-position: center;
