@@ -193,7 +193,7 @@ main .infoText{
     .menu ul {
         position: fixed;
         width: 250px;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 30px);
         top: 70px;
         right: -250px;
         background-color: #232323;
