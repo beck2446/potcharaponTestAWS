@@ -22,7 +22,7 @@ body{
 }
 .container .logo{
     color: #dedce1;
-    font-size: 2vw;
+    font-size: 18px;
     text-transform: uppercase;
 }
 .container .logo span{
@@ -79,12 +79,10 @@ body{
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: cover;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-
 main .infoText{
     padding: 0 8%;
 }
@@ -127,11 +125,6 @@ main .infoText{
     bottom: 60px;
     left: 8%;
 }
-.socialMediaIcons b{
-    font-size: 20px;
-    padding-right: 20px;
-    color: #dedce1;
-}
 .socialMediaIcons a i{
     font-size: 24px;
     padding-right: 20px;
@@ -142,7 +135,7 @@ main .infoText{
     color: yellow;
     transform: scale(1.2);
 }
-@media(max-width: 480px) {
+@media(max-width: 768px) {
     .menu #menuBtn{
         display: block;
     }
