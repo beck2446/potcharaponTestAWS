@@ -26,7 +26,7 @@ body{
     text-transform: uppercase;
 }
 .container .logo span{
-    padding-left: 10px;
+    padding-left: 1vw;
     color: yellow;
 }
 .menu ul{
@@ -34,14 +34,14 @@ body{
 }
 .menu ul li{
     display: inline-table;
-    padding: 0px 20px;
+    padding: 0 2vw;
 }
 .menu ul li a{
     position: relative;
     display: block;
     text-decoration: none;
     color: #dedce1;
-    font-size: 20px;
+    font-size: 2vw;
 }
 .menu ul li a::after{
     content: '';
@@ -79,7 +79,6 @@ body{
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: cover;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -90,32 +89,32 @@ main .infoText{
 }
 .infoText p{
     color: #79747b;
-    font-size: 22px;
+    font-size: 2vw;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 .infoText h1{
     color: #dedce1;
-    font-size: 50px;
-    padding: 8px 0px;
-    letter-spacing: 2px;
+    font-size: 4vw;
+    padding: 1vw 0;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #333, -2px -2px -2px #333;
 }
 .infoText h1 span{
     color: yellow;
-    padding-left: 10px;
+    padding-left: 1vw;
 }
 .infoText button{
-    padding: 10px 12px;
+    padding: 1vw 1.2vw;
     border: 1px solid #79747b;
-    border-radius: 20px;
+    border-radius: 2vw;
     outline: none;
-    font-size: 18px;
+    font-size: 1.5vw;
     text-transform: uppercase;
     background-color: #000000;
     color: #79747b;
-    margin-top: 40px;
+    margin-top: 4vw;
     cursor: pointer;
     transition: all 0.4s;
 }
