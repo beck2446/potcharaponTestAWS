@@ -22,7 +22,7 @@ body{
 }
 .container .logo{
     color: #dedce1;
-    font-size: 18px;
+    font-size: 2vw;
     text-transform: uppercase;
 }
 .container .logo span{
@@ -79,10 +79,12 @@ body{
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: cover;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 main .infoText{
     padding: 0 8%;
 }
