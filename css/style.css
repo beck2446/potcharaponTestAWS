@@ -43,9 +43,6 @@ body{
     color: #dedce1;
     font-size: 20px;
 }
-.size-word{
-    font-size: 20px;
-}
 .menu ul li a::after{
     content: '';
     position: absolute;
@@ -102,6 +99,12 @@ main .infoText{
     letter-spacing: 2px;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #333, -2px -2px -2px #333;
+}
+.infoText b{
+    color: #dedce1;
+    font-size: 20px;
+    padding: 8px 0px;
+    letter-spacing: 2px;
 }
 .infoText h1 span{
     color: yellow;
