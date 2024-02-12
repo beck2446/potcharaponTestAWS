@@ -141,7 +141,7 @@ main .infoText{
     color: yellow;
     transform: scale(1.2);
 }
-@media(max-width: 480px) {/*
+@media(max-width: 480px) {
     .menu #menuBtn{
         display: block;
     }
@@ -184,5 +184,5 @@ main .infoText{
     }
     .menu ul.active{
         right: 0;
-    }*/
+    }
 }
