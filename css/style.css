@@ -75,7 +75,7 @@ body{
 }
 .container main{
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 2vw);
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -127,7 +127,7 @@ main .infoText{
     left: 8%;
 }
 .socialMediaIcons b{
-    font-size: 3vw;
+    font-size: 2.5vw;
     padding-right: 20px;
     color: #dedce1;
 }
