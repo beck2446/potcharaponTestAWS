@@ -135,7 +135,7 @@ main .infoText{
     color: yellow;
     transform: scale(1.2);
 }
-@media(max-width: 768px) {
+@media(max-width: 480px) {
     .menu #menuBtn{
         display: block;
     }
