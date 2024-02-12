@@ -75,7 +75,7 @@ body{
 }
 .container main{
     width: 100%;
-    height: 1706px;
+    height: calc(100vh - 10px);
     background-image: url(../images/fitness.jpg);
     background-repeat: no-repeat;
     background-position: center;
