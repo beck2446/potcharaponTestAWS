@@ -75,10 +75,10 @@ body{
 }
 .container main{
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100%;
     background-image: url(../images/mymodel.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: flex-start;
