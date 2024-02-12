@@ -85,6 +85,10 @@ body{
     align-items: center;
 }
 
+main .body{
+    text-align: center;
+}
+
 main .infoText{
     padding: 0 8%;
 }
