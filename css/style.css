@@ -145,6 +145,9 @@ main .infoText{
 @media(max-width: 480px) {
     .menu #menuBtn{
         display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
     .menu ul{
         position: fixed;
