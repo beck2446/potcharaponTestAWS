@@ -30,9 +30,8 @@ body{
     color: yellow;
 }
 .menu ul{
+    display: inline-table;
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
 }
 .menu ul li{
     padding: 0 3vw;
